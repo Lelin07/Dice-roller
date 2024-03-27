@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice roller</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <h1>Roll the Dice</h1>
+        <input type="number" value="1" min="1" id="userInput">
+        <button onclick="roll()" class="button">ROLL DICE</button>
+        <div id="result"></div>
+        <div id="diceimages"></div>
+    </div>
+
+    <video id="bg-video" autoplay loop muted>
+        <source
+            src=".\assets\bgvideo.mp4"
+            type="video/mp4">
+    </video>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
